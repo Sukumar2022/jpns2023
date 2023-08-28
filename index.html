@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resources/plugins/aos.css">
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="resources/plugins/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="resources/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="resources/plugins/aos.js"></script>
+
+
+  </head>
+  <body>
+    <div class="wraper">
+      <!-- navbar -->
+      <div class="nav-bar" id="nav-bar">
+        <div class="logo">
+          <p>jujersaha pallishree <span>Nabin Sangha</span></p>
+        </div>
+        <div class="menu">
+          <ul id="font">
+            <li><a href="" class="home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <h3 onclick="openNav()"> &#9776 </h3>
+      </div>
+      <!-- carousal slider -->
+      <div class="car" id="home">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="resources/images/banner1.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="resources/images/banner2.jpg" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="resources/images/banner3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- about us -->
+      <div class="about" id="about">
+        <h2>who we are</h2>
+        <div class="card-container">
+          <div class="card" data-aos="fade-left">
+            <div class="card-logo">
+              <i class="fa-solid fa-address-card"></i>
+            </div>
+            <h3>About</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Suscipit, deserunt vero. Cumque neque est asperiores provident
+              eaque, inventore unde fuga, placeat maiores animi accusamus
+              dignissimos rem? Reiciendis iure libero
+            </p>
+          </div>
+          <div class="card" data-aos="fade-right">
+            <div class="card-logo">
+              <i class="fa-solid fa-person-running"></i>
+            </div>
+            <h3>Sports</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Suscipit, deserunt vero. Cumque neque est asperiores provident
+              eaque, inventore unde fuga, placeat maiores animi accusamus
+              dignissimos rem? Reiciendis iure libero
+            </p>
+          </div>
+          <div class="card" data-aos="fade-down">
+            <div class="card-logo"><i class="fa-solid fa-ribbon"></i></div>
+            <h3>Events</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Suscipit, deserunt vero. Cumque neque est asperiores provident
+              eaque, inventore unde fuga, placeat maiores animi accusamus
+              dignissimos rem? Reiciendis iure libero
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- gallery-section -->
+      <div class="gallery" id="gallery">
+        <h1>Hall of Frames</h1>
+        <div class="grid-container "data-aos="flip-left">
+          <div class="g_div">
+            <img
+              class="grid-item grid-item-1"
+              src="resources/images/img1.jpg"
+              alt=""
+            />
+            <p>"Our Senior Win Cricket Match"</p>
+          </div>
+          <div class="g_div">
+            <img
+              class="grid-item grid-item-2"
+              src="resources/images/img2.jpg"
+              alt=""
+            />
+            <p>"Juniors win Football Match"</p>
+          </div>
+          <div class="g_div">
+            <img
+              class="grid-item grid-item-5"
+              src="resources/images/img5.jpg"
+              alt=""
+            />
+            <p>"Organise Football Match"</p>
+          </div>
+          <div class="g_div">
+            <img
+              class="grid-item grid-item-3"
+              src="resources/images/img3.jpg"
+              alt=""
+            />
+            <p>"Prize Distribution"</p>
+          </div>
+          <div class="g_div">
+            <img
+              class="grid-item grid-item-4"
+              src="resources/images/img4.jpg"
+              alt=""
+            />
+            <p>"Celebrate Playground Puja"</p>
+          </div>
+
+          
+         
+        
+        </div>
+        <!-- blog -->
+        <div class="blog" id="blog">
+          <div class="banner">
+            <img src="resources/images/banner4.jpg" alt="" srcset="" />
+            <div class="content-div">
+              <h1>Football Tournament</h1>
+              <p>
+                Jujersaha Pallishree Nabin Sangha <br />
+                Smriti Cup - 2016
+              </p>
+            </div>
+          </div>
+
+          <div class="banner2">
+            <div class="content-div">
+              <h1>Celebrate our Independence Day</h1>
+              <p>
+                Indian 76th <br>  Independence Day <br />
+                
+              </p>
+            </div>
+            <img
+              src="resources/images/flying Indian Flag animation.gif"
+              alt=""
+              srcset=""
+              class="slide-in-fwd-center"
+            />
+          </div>
+        </div>
+        <div class="banner3">
+          <div class="content">
+            <h1 class="tracking-in-expand">
+              Jujersaha Singhbhahinitala <br> Sarbojonin Durgaustav
+            </h1>
+            <p>
+              Jujersaha,Panchla,Howrah <br />
+              Estd - 2019 <br />
+              * Best Protima in Panchla- 2019 (1st Prize)
+            </p>
+          </div>
+          <img 
+            src="resources/images/banner6.jpg"
+            alt=""
+            srcset=""
+            class="slide-in-fwd-center" 
+          />
+        </div>
+        <!-- contact us  -->
+        <div class="contact" id="contact">
+          <div class="text-div">
+            <h5>LOCATION</h5>
+            <p>
+              Jujersaha Singhabhahinitala, <br />
+              Panchla ,Howrah-711302
+            </p>
+            <p>Follow Us</p>
+            <div class="follow-btn">
+              <i class="fa-brands fa-facebook"></i>  <i class="fa-brands fa-whatsapp"></i> <i class="fa-brands fa-youtube"></i>
+            </div>
+            
+            <span>@2023 Privacy Policy <br>Design & Develop by Sukumar Mondal</span>
+          </div>
+          <div class="form-box">
+            <form action="" method="post">
+              <h2>contact form</h2>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter Your Name"
+              /><br />
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter Your Valid Email Address"
+              /><br />
+              <textarea
+                name=""
+                id=""
+                placeholder="Enter Your Message"
+              ></textarea
+              ><br />
+              <button>submit</button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- go to top btn  -->
+      <div class="up-btn" id="nav-bar">
+        <a href="#home"> Go to Top</a>
+      </div>
+
+      <!-- responsive navbar  -->
+      <div class="res-nav" id="res-nav">
+        <span onclick="closeNav()"> &times; </span>
+        <ul>
+          <li><a href="" class="res_home">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- //end of wraper class -->
+    </div>
+
+    <!-- responsive wala code -->
+    <!-- navbar  -->
+    
+
+
+    <script>
+       AOS.init();
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+ 
+    </script>
+  </body>
+</html>

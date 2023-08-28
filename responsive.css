@@ -1,0 +1,112 @@
+@media (max-width:910px) {
+    .menu ul{
+        display: none;
+    }
+    .nav-bar h3{
+        display: block;
+    }
+}
+@media (max-width:560px) {
+    .banner img{
+        width: 500px;
+        height: 340px;
+    }
+    .banner2 img {
+        height: 255px;
+        width: 500px;
+        border-radius: 16px;
+    }
+    .banner3 img{
+        width: 480px;
+    }
+}
+@media (max-width:480px) {
+    .logo{
+        font-size: 20px;
+    }
+    .banner img{
+        width: 415px;
+        height: 300px;
+    }
+    .banner2 img {
+        height: 255px;
+        width: 420px;
+        border-radius: 16px;
+    }
+    .banner3 img{
+        width: 420px;
+    }
+    .content-div h1 {
+        color: #fff;
+        font-size: 26px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (max-width:405px) {
+    .menu ul{
+        display: none;
+    }
+    /* menu-bar */
+    .nav-bar h3{
+        display: block;
+    }
+    .logo p{
+        font-size: 18px;
+    }
+    .car {
+        height: 89vh;  
+    }
+    .card-container -card{
+        margin: 22px 20px;
+        height: 280px;
+        width: 266px;
+    }
+    .banner img{
+        width: 365px;
+        height: 293px;
+    }
+    .content-div h1 {
+        color: #fff;
+        font-size: 29px;
+        text-align: center;
+    }
+    .content-div p {
+        margin: 15px 0px;
+        font-size: 16px;
+        padding: 0;
+    }
+    .banner2 img {
+        height: 255px;
+        width: 355px;
+        border-radius: 16px;
+    }
+    .banner3 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .banner3 p{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .banner3 img{
+        height: 360px;
+        width: 360px;
+    }
+    .contact .text-div,
+    .form-box {
+    height: 420px;
+    width: 330px;
+    text-align: center;
+    }
+    .form-box input{
+        width: 300px;
+    }
+    .form-box textarea{
+        width: 300px;
+    }
+}
